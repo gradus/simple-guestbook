@@ -1,0 +1,22 @@
+h2 Welcome, 
+  = username
+h3 Please enter contact info
+.row
+  .span8
+    .control-group
+      .controls
+        input(type='text', class='first_name', name='first_name', placeholder='First Name')
+    .control-group
+      .controls
+        input(type='text', class='last_name', name='last_name', placeholder='Last Name')
+    .control-group
+      .controls
+        input(type='text', class='email', name='email', placeholder='Email Address')
+    .control-group
+      .controls
+        input(type='text', class='phone', name='phone', placeholder='Phone Number')
+
+    .control-group
+      button.btn.btn-primary(class="create_contact") Create
+  .span4
+    .contacts

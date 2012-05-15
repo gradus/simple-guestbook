@@ -1,0 +1,27 @@
+{
+  "author": "Kris Windham <kriswindham@gmail.com> (krwindham.jit.su)",
+  "name": "guestbook",
+  "description": "simple guestbook - user login, text entry, realtime update on client home page.",
+  "version": "0.0.0",
+  "homepage": "guestbook.jit.su",
+  "repository": {
+    "url": "https://github.com/gradus/guestbook"
+  },
+  "main": "./lib/app.js",
+  "scripts": {
+    "start": "./bin/server"
+  },
+  "dependencies": {
+    "express": "~2.5.9",
+    "resourceful": "~0.1.10",
+    "eventemitter2": "~0.4.9",
+    "jade": "~0.26.0",
+    "passport": "~0.1.8",
+    "passport-local": "~0.1.2",
+    "now": "~0.8.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.6.17"
+  }
+}

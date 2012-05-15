@@ -1,0 +1,34 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/bootstrap-responsive.min.css')
+    link(rel='stylesheet', href='/css/app.css')
+
+    link(rel='apple-touch-icon', href='/img/apple-touch-icon.png')
+    meta(name="apple-mobile-web-app-capable", content="yes")
+  body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.brand(href='/') Guestbook
+          .nav-collaspe
+            ul.nav
+              li: a(href='/login') Login
+              /*li: a(href='/alerts') Medication Alerts*/
+              /*li: a(href='/patients') Patients*/
+    .container
+      .span8
+        != body
+      .span3
+        .hero-unit
+          h2 Guestbook
+          "A simple guestbook"
+        div(style='margin:10px;')
+          img(src="/img/guestbook.jpg")
+
+    script(src='/js/jquery-1.7.1.min.js')
+    script(src='/nowjs/now.js)
+    script(src='/js/bootstrap.min.js')
+    script(src='/js/app.js')
